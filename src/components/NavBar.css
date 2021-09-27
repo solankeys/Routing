@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navcomp{
+    background-color:#fff;
+    height: 20vh;
+}
+.navlogo{
+     width: 50%;
+     float: left;
+     padding: none;
+     margin-top:2rem ;
+     /* height: 60px; */
+}
+.navlogo img{
+    width:50% ;
+    float: left;
+    padding: 1rem 0rem;
+}
+.navpg{
+    float: left;
+    padding: 0;
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+.branchimg{
+    width:20%;
+    margin-left: 4rem;
+    display: inline-block;
+    margin-top: 1rem;
+}
+ .navmenu{
+     float: right;
+     width: 70%;
+     margin-top:1rem ;
+ }
+ .navlinks,.upperlinks{
+     text-align: center;
+     float: right;
+ }
+.navlinks li,.upperlinks li{
+    display: inline-block;
+    list-style: none;
+}
+.navlinks li a, .upperlinks li a{
+    display:inline-block;
+    padding: 0rem 1.5rem;
+    text-decoration: none;
+}
+.navlinks{
+margin-top: 1.5rem;
+}
+.navlinks li img{
+    width:50px;
+    border-radius: 50px;
+}
+select{
+    border: 1px;
+}
+.lastlist{
+    margin: 1rem 2rem 1rem 2rem;
+}
+.upperlinks{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+ul li{
+    color: #000;
+}
+.username{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+.borderline{
+    border-right: 0.25px #D6D6D6 dashed;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.navlinks li a{
+    font-family: 'Inter',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+a{
+    color: #000;
+}

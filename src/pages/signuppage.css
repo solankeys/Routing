@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+     background: #F4EAE9;
+     overflow: scroll;
+    /* overflow-x: scroll;
+    overflow-y: scroll; */
+ } 
+  /* }::-webkit-scrollbar{
+     width: 0px;
+ }::-webkit-scrollbar-thumb {
+     background: #f8f5f7; 
+ }  */
+.foodimage{
+    display: inline;
+    width: 40%;
+    height: 80vh;
+    float: left;
+}
+.resetpw{
+    text-decoration: none;
+    color: #880000;
+    display: block;
+    position: absolute;
+    right: 0;
+    margin-right:8.5rem ;
+    font-family: 'Inter', sans-serif;
+    font-weight:600 ;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19.36px;
+}
+.logbutton ,.logwithfb,input,.logwithgoogle{
+    display: block;
+    background-color: #880000;
+    color: #fff;
+    width: 85%;
+    height: 44px;
+    border-radius: 12px;
+    margin: auto;
+    padding-left: 1rem;
+    border: none;
+    /* padding: 0.2rem 0.2rem; */
+}
+.logwithfb{
+    background-color: #4267B2;
+    height: 43px;
+    font-family: Open Sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+}
+input{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #999999;
+    /* margin: top rem; */
+    margin-bottom: 0.5rem;
+    border: 1px solid #C8C8C8;
+}
+.pg{
+    text-align:center;
+    padding-right:4.5rem ;
+    font-family : 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #252525;
+}
+hr{
+    width: 80%;
+    margin: auto;
+}
+.clickme , .clickme1{
+    color: #880000;
+    text-decoration: none;
+}
+form{
+    box-sizing: border-box;
+    margin: auto;
+    margin: 6rem;
+    /* margin-right: 6rem; */
+    float: right;
+    height: 90vh;
+    background-color: #fff;
+    width: 35%;
+    /* border-radius: 10px 10px 10px 
+    10px;  */
+    /* text-align: center; */
+    vertical-align: middle;
+}
+.title{
+    margin: 1.5rem 1rem 0.5rem 2rem;
+     /* text-align:center ;  */
+    font-family:'Inter', sans-serif ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #252525;
+    width: 300px; 
+    
+}
+.logwithgoogle, .logbutton ,.logwithfb, hr{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+} 
+i{
+    margin:0.5rem;
+}
+.logwithgoogle{
+    background-color: #FAF6F6;
+    color: #E61E25;
+    font-family: open sans,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21.79px;
+    height: 42.04px;
+}
+ .pg1{
+    font: Open Sans;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 21.79px;
+    text-align: center;
+}
+.logbutton{
+    background-color: #AA191F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    height: 42.04px;
+}
+/* .largerdiv{
+    background: #f8f5f7;
+    border: initial;
+    border-radius: 10px;
+} */
+.userinput , .userpw{
+    margin-top: 2rem;
+}
+.signinform{
+    height: 105vh;
+    border-radius: 10px 10px 10px 10px;
+} 
+.pg{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

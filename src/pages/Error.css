@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+body{
+    background-color: #F4EAE9;
+}
+
+.errormes,.confusimg{
+    display: inline-block;
+    width: 45%;
+}
+.errormes{
+    vertical-align: middle;
+    height: 210vh;
+    margin: 0 auto;
+    /* margin-left: 1rem;  */
+     /* text-align: justify;*/
+}
+h1{
+    color: #AA191F;
+    font-family: 'open sans', sans-serif;
+    font-size: 150px;
+    font-weight: 700;
+    margin: auto;
+    margin-left: 100px;
+}
+h2{
+    color: #3B3B3B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 43.57px;
+    margin-left: 100px;
+}
+.backbtn, .backtohomebtn{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 12px 12px 12px 12px;
+    height: 47px;
+    width: 130px;
+    margin-top: 2rem
+}
+.backtohomebtn{
+    color: #fff;
+    background-color: #960B03;
+    margin-left: 2rem;
+    margin-right: 6rem;
+}
+.backbtn{
+    border: 1px solid #AA191F;
+    box-sizing: border-box;
+    color: #AA191F;
+    margin-right: 2rem;
+    margin-left: 100px;
+}
+.errorpg{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #3B3B3B;
+    margin-left: 100px;
+}
+.confusimg{
+    margin-top: 12rem;
+    background-image: url(../img/weirdshape.png);
+    background-repeat: no-repeat;
+}
+.confusimg img{
+    margin: 30px;
+    /* background-color: #ffffff; */
+    /* border: 1px solid black; */
+    opacity: 0.9;
+}
